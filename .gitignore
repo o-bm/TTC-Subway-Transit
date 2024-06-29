@@ -1,0 +1,15 @@
+# Ignore all files in data directory
+/data/*
+
+# But keep necessary GTFS files
+!/data/stops.txt
+!/data/trips.txt
+!/data/routes.txt
+
+
+# Ignore node_modules
+node_modules/
+
+# Ignore logs and temp files
+*.log
+*.tmp
