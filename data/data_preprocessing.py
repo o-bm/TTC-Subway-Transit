@@ -51,6 +51,6 @@ for _, row in unique_subway_stations.iterrows():
 subway_stations_df = pd.DataFrame(subway_stations_info)
 
 # Save the DataFrame to a CSV file
-output_csv_path = os.path.join(script_dir, '../data/toronto_subway_stations_info.csv')
+output_csv_path = os.path.join(script_dir, '../data/ttc_data.csv')
 subway_stations_df.to_csv(output_csv_path, index=False)
 print(f"Data processing complete. CSV file saved to {output_csv_path}")
