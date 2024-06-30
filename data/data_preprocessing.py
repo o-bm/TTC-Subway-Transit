@@ -5,10 +5,10 @@ import os
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
 
-stops_path = os.path.join(script_dir, './toronto-gtfs/stops.txt')
-routes_path = os.path.join(script_dir, './toronto-gtfs/routes.txt')
-trips_path = os.path.join(script_dir, './toronto-gtfs/trips.txt')
-stop_times_path = os.path.join(script_dir, './toronto-gtfs/stop_times.txt')
+stops_path = os.path.join(script_dir, '../toronto-gtfs/stops.txt')
+routes_path = os.path.join(script_dir, '../toronto-gtfs/routes.txt')
+trips_path = os.path.join(script_dir, '../toronto-gtfs/trips.txt')
+stop_times_path = os.path.join(script_dir, '../toronto-gtfs/stop_times.txt')
 
 # Load required GTFS data
 stops = pd.read_csv(stops_path)
