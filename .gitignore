@@ -7,3 +7,16 @@ node_modules/
 # Ignore logs and temp files
 *.log
 *.tmp
+
+# Ignore the virtual environment directory
+venv/
+
+# Ignore other common files and directories
+__pycache__/
+*.pyc
+.DS_Store
+.env
+*.log
+node_modules/
+dist/
+build/
